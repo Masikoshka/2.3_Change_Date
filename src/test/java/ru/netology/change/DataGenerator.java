@@ -17,7 +17,7 @@ public class DataGenerator {
     public static String dataDate() {
         LocalDate date = LocalDate.now();
 
-        date = date.plusDays(new Random().nextInt(14 - 3) + 3);
+        date = date.plusDays(new Random().nextInt(19 - 3) + 3);
         return date.format(DateTimeFormatter.ofPattern("dd.MM.yyyy"));
     }
 
