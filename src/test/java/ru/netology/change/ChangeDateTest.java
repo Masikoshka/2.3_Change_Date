@@ -15,7 +15,6 @@ public class ChangeDateTest {
 
     @Test
     void ChangeCardDeliveryDate() {
-        Configuration.headless = true;
         String planningDate = DataGenerator.dataDate();
         String planningDateNew = DataGenerator.dataDate();
 
